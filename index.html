@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Hi! I'm Aleks</h1>
-    <img src="./SEI34_AlexB_Headshot_008.jpg" alt="Profile">
+    <img src="img/Profile.jpg" alt="Profile">
     <h3>My GA Experience</h3>
     <p>I’ve just finished my Software Engineering Immersive at General Assembly. Few of the marvelous things I learned there are React, Java Script in as many forms as possible, Ruby on Rails and a bunch of things that are listed down below so read on!</p>
     <h3>Long story short</h3>
@@ -19,20 +19,29 @@
     <p>I love learning, especially from other people. I usually spend my free time on (over)researching my new hobbies. I am inspired by other people’s great ideas and unique approaches and love working in an environment with people who have those. I do not mind critique at all, quite the opposite -  I appreciate it.</p>
     <h2>My projects</h2>
     <div>
-        <h3>Markdown Web Editor</h3>
-        <p style="font-style: italic;">December 2019</p>
-        <p>
-            <a href="https://notes-d5887.firebaseapp.com/">NotAble</a> is an app which enables user to create, save and edit Markdown documents and see the renders in real time. I created it using React and Firebase. I used SASS for styling.
-        </p>
-        <p>Here's my <a href="#">code</a>!</p>
+        <div>
+            <h3>Markdown Web Editor</h3>
+            <p style="font-style: italic;">December 2019</p>
+            <p>
+                <a href="https://notes-d5887.firebaseapp.com/">NotAble</a> is an app which enables user to create, save and edit Markdown documents and see the renders in real time. I created it using React and Firebase. I used SASS for styling. To authenticate users I used methods provided by Firebase. I also implemented their NoSQL Database to store user information and notes.
+            </p>
+            <p>Here's my <a href="#">code</a>!</p>
+            <img src="./img/Note.png" alt="NotAble screenshot">
+            <hr />
+        </div>
     </div>
-    <div>
-        <h3>Social betting app</h3>
-        <p style="font-style: italic;">November 2019</p>
-        <p>
-            <a href="https://notes-d5887.firebaseapp.com/">Betyourmate</a> is an app for solving "Gentlemens' agreements involving money". This mobile-first website was created as a group project using React, Redux, SCSS and a bit of Bootstrap for the front end side. For the backend we used Ruby on Rails. We implemented JWT user authentication. Both sides are hosted on Heroku.
-        </p>
-        <p>We used Github to manage the project between us. Branching was a lifesaver for trying out new features.</p>
+    <div class="project">
+        <img src="./img/Bet.png" alt="Betyourmate screenshot">
+        <div>
+            <h3>Social betting app</h3>
+            <p style="font-style: italic;">November 2019</p>
+            <p>
+                <a href="http://www.betyourfriend.com.au/">Betyourmate</a> is an app for resolving "Gentlemens' agreements involving money". This mobile-first website was created as a group project using React, Redux, SCSS and a bit of Bootstrap for the front end. For the backend we used Ruby on Rails, with Active Storage for storing profile images. We implemented JWT user authentication. Both sides are hosted on Heroku.
+            </p>
+            <p>The future of the project is on an app and that's what we're working right now. We will be using React Native to build out an app for both systems and AWS/Firebase for the backend</p>
+            <p>We used Github to manage the project between us. Branching was a lifesaver for trying out new features.</p>
+            <p>Our code is private, as we are planning to continue working on this app, but here is a <a href="#">Github repo</a> with public Readme which is going into detail of how the app works.</p>
+        </div>
     </div>
 </body>
 </html>
